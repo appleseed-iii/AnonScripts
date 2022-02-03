@@ -47,8 +47,12 @@ export BROWSER="Brave Browser"
 
 ### delete all *merged* git branches except master|develop|alpha
 
+```zsh
 git branch --merged | egrep -v "(^\*|master|develop|alpha)" | xargs git branch -d
+```
 
 ### delete all git branches except master|develop|alpha
 
+```zsh
 git branch | egrep -v "(^\*|master|develop|alpha)" | xargs git branch -d
+```
