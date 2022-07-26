@@ -8,9 +8,11 @@ Read the comments in the scripts for usage
 
 ### Contents
 
-[.ssh/config](#ssh-config)
-[.zshrc](#zshrc-config)
-[GitOwner script](GitOwner.sh)
+1. [.ssh/config](#ssh-config)
+
+2. [.zshrc](#zshrc-config)
+
+3. [GitOwner script](GitOwner.sh)
 
 <a name="ssh-config"/>
 ### .ssh/config for anons
