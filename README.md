@@ -14,6 +14,8 @@ Read the comments in the scripts for usage
 
 3. [GitOwner script](GitOwner.sh)
 
+---
+
 <a name="ssh-config"/>
 
 ### .ssh/config for anons
