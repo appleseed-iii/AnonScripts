@@ -15,6 +15,7 @@ Read the comments in the scripts for usage
 3. [GitOwner script](GitOwner.sh)
 
 <a name="ssh-config"/>
+
 ### .ssh/config for anons
 
 1. create another ssh rsa. [tips from github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -38,6 +39,7 @@ Read the comments in the scripts for usage
   ```
 
 <a name="zshrc-config"/>
+
 ### A ~/.zshrc config
 
 ```zsh
