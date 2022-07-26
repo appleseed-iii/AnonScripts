@@ -8,11 +8,16 @@ Read the comments in the scripts for usage
 
 ### Contents
 
-[.ssh/config](#ssh-config)
-[.zshrc](#zshrc-config)
-[GitOwner script](GitOwner.sh)
+1. [.ssh/config](#ssh-config)
+
+2. [.zshrc](#zshrc-config)
+
+3. [GitOwner script](GitOwner.sh)
+
+---
 
 <a name="ssh-config"/>
+
 ### .ssh/config for anons
 
 1. create another ssh rsa. [tips from github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -36,6 +41,7 @@ Read the comments in the scripts for usage
   ```
 
 <a name="zshrc-config"/>
+
 ### A ~/.zshrc config
 
 ```zsh
