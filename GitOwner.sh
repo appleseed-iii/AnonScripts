@@ -15,12 +15,16 @@
 # Set your ANON details:
 NAME="your-name"
 EMAIL="your-name@protonmail.com"
+GPG=""
 
-# script
+echo "======= Updating git config name: $GPG ======="
+git config --local user.signingkey $GPG
+git config --local commit.gpgsign true
+
 echo "======= Updating git config name: $NAME & email: $EMAIL ======="
 git config --local user.name $NAME
 git config --local user.email $EMAIL
 
 echo "======= UPDATED ======="
 git config --local --list
-echo "^^^^^^^ Confirm name & email are changed above ^^^^^^^"
+echo "^^^^^^^ Confirm name & email & gpg are changed above ^^^^^^^"
