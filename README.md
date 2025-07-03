@@ -44,19 +44,11 @@ Read the comments in the scripts for usage
 
 ### A ~/.zshrc config
 
+just run the following to update your local .zshrc
+
 ```zsh
-# ----------------------
-# Git Aliases
-# ----------------------
-alias gaa='git add .'
-alias gcm='git commit'
-
-# perl5 if you need it
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
-
-# ---------
-# browser
-export BROWSER="Brave Browser"
+cp zsh/.zshrc ~/.zshrc
+source ~/.zshrc
 ```
 
 ### delete all *merged* git branches except master|develop|alpha
@@ -70,3 +62,6 @@ git branch --merged | egrep -v "(^\*|master|develop|alpha)" | xargs git branch -
 ```zsh
 git branch | egrep -v "(^\*|master|develop|alpha)" | xargs git branch -d
 ```
+
+# Install Rectangle
+https://github.com/rxhanson/Rectangle
